@@ -50,8 +50,18 @@ export default function Header() {
       style={{ minHeight: '64px' }}
     >
       <div className="container mx-auto px-8 py-5 flex items-center justify-between">
-        <div className="text-xl font-light text-gray-900">
-          Slatts Ventures
+        <div 
+          className="flex items-center gap-3 cursor-pointer group"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        >
+          <img 
+            src="https://c.animaapp.com/mipw8t0njGuOWs/img/fee73c0d-d64e-41dd-be8b-770244ec5b79.png" 
+            alt="Slatts Ventures Logo" 
+            className="h-10 w-10 transition-transform duration-300 group-hover:scale-105"
+          />
+          <span className="text-xl font-light text-gray-900 transition-colors duration-300 group-hover:text-primary">
+            Slatts Ventures
+          </span>
         </div>
 
         {/* Desktop Navigation */}

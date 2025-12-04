@@ -46,7 +46,7 @@ export default function HeroSection() {
           </p>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 mb-6 max-w-4xl mx-auto leading-tight">
-            Transform your biggest, boldest ideas into revenue-generating reality
+            Transform your biggest, boldest ideas into reality
           </h1>
 
           <p className="text-lg md:text-xl font-light text-gray-700 mb-12 max-w-2xl mx-auto">

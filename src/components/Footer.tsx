@@ -8,9 +8,16 @@ export default function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-normal text-gray-900 mb-2">
-              Slatts Ventures
-            </h3>
+            <div className="flex items-center gap-3 justify-center md:justify-start mb-2">
+              <img 
+                src="https://c.animaapp.com/mipw8t0njGuOWs/img/fee73c0d-d64e-41dd-be8b-770244ec5b79.png" 
+                alt="Slatts Ventures Logo" 
+                className="h-8 w-8"
+              />
+              <h3 className="text-xl font-normal text-gray-900">
+                Slatts Ventures
+              </h3>
+            </div>
             <p className="text-sm font-light text-gray-600">
               Innovation Engineering // AI Orchestration
             </p>

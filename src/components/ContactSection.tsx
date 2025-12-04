@@ -25,7 +25,7 @@ export default function ContactSection() {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8" />
           <p className="text-lg font-light text-gray-700 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Ready to turn your boldest ideas into revenue-generating reality? Book a strategy session to explore how we can accelerate your innovation journey.
+            Ready to turn your boldest ideas into reality? Book a strategy session to explore how we can accelerate your innovation journey.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
