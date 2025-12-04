@@ -54,7 +54,7 @@ export default function HeroSection() {
           </p>
 
           <Button
-            onClick={scrollToContact}
+            onClick={() => window.open('https://zcal.co/paulslattery/15m', '_blank')}
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 font-normal px-10 py-7 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
           >

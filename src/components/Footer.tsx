@@ -30,7 +30,7 @@ export default function Footer() {
 
           <div className="flex gap-6">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/paulslattery/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary transition-colors duration-200"
@@ -39,11 +39,11 @@ export default function Footer() {
               <Linkedin width={24} height={24} strokeWidth={1.5} />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/slatts_____"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary transition-colors duration-200"
-              aria-label="Twitter"
+              aria-label="X (Twitter)"
             >
               <Twitter width={24} height={24} strokeWidth={1.5} />
             </a>

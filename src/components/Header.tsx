@@ -87,10 +87,10 @@ export default function Header() {
         </NavigationMenu>
 
         <Button
-          onClick={() => scrollToSection('contact')}
+          onClick={() => window.open('https://zcal.co/paulslattery/15m', '_blank')}
           className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 font-light rounded-full px-6"
         >
-          Contact
+          Book a Call
         </Button>
 
         {/* Mobile Menu Button */}
@@ -123,10 +123,10 @@ export default function Header() {
             ))}
             <NavigationMenuItem>
               <Button
-                onClick={() => scrollToSection('contact')}
+                onClick={() => window.open('https://zcal.co/paulslattery/15m', '_blank')}
                 className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-light rounded-full"
               >
-                Contact
+                Book a Call
               </Button>
             </NavigationMenuItem>
           </NavigationMenuList>

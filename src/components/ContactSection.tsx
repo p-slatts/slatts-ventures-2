@@ -32,9 +32,9 @@ export default function ContactSection() {
             <Button
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-normal px-10 py-7 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-              onClick={() => window.location.href = 'mailto:contact@slatts.ventures'}
+              onClick={() => window.open('https://zcal.co/paulslattery/15m', '_blank')}
             >
-              Get in Touch
+              Book a Call
             </Button>
             
             <Button
@@ -44,12 +44,12 @@ export default function ContactSection() {
               onClick={() => window.location.href = 'mailto:contact@slatts.ventures'}
             >
               <Mail className="mr-2" width={20} height={20} />
-              Direct Contact
+              Email Us
             </Button>
           </div>
 
           <div className="text-center">
-            <p className="text-base font-light text-gray-600 mb-2">Email</p>
+            <p className="text-base font-light text-gray-600 mb-2">Or reach out directly</p>
             <a
               href="mailto:contact@slatts.ventures"
               className="text-lg font-normal text-primary hover:text-primary/80 transition-colors duration-200"
