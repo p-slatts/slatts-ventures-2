@@ -42,15 +42,15 @@ export default function HeroSection() {
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
         >
           <p className="text-sm md:text-base font-light text-gray-600 mb-4 uppercase tracking-wider">
-            Innovation Engineering // AI Orchestration
+            The Machine Needs a Maker.
           </p>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 mb-6 max-w-4xl mx-auto leading-tight">
-            Transform your biggest, boldest ideas into reality
+            The Age of AI Belongs to Builders
           </h1>
 
           <p className="text-lg md:text-xl font-light text-gray-700 mb-12 max-w-2xl mx-auto">
-            Cut through complexity to deliver measurable results. Save money. Ship faster. Scale smarter.
+            Build Smarter. Ship Faster. Mean Something.
           </p>
 
           <Button
@@ -58,7 +58,7 @@ export default function HeroSection() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 font-normal px-10 py-7 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            Book Strategy Session
+            Get in Touch
           </Button>
         </motion.div>
       </div>

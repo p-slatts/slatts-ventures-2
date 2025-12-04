@@ -32,9 +32,9 @@ export default function ContactSection() {
             <Button
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-normal px-10 py-7 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-              onClick={() => window.open('https://calendly.com/slatts-ventures', '_blank')}
+              onClick={() => window.location.href = 'mailto:contact@slatts.ventures'}
             >
-              Book Strategy Session
+              Get in Touch
             </Button>
             
             <Button
