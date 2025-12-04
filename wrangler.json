@@ -2,6 +2,7 @@
   "name": "slatts-ventures",
   "compatibility_date": "2025-12-04",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
   }
 }
