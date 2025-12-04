@@ -25,7 +25,7 @@ export default function AboutSection() {
           <div className="w-20 h-1 bg-primary mx-auto mb-8" />
           <div className="text-lg font-light text-gray-700 max-w-3xl mx-auto leading-relaxed">
             <p>
-              Some people talk about the future. I build it. Not because it's easy, but because it matters. Twenty years in the space between what is and what could be, building platforms, leading teams, turning industries on their heads. The work was never about the exit or the title. It was about the craft. The obsession. The 3am conviction that this thing has to exist. I believe technology should mean something and that the best work comes from curiosity that won't quit and the courage to ship before you're ready. This is what I do. I build things that matter.
+              At Slatts Ventures inspiration and curiosity drive our work. Not because it's easy, but because it matters. We believe technology should mean something. We believe the best work comes from a combination of craft, courage and the conviction that this has to exist.
             </p>
           </div>
         </motion.div>
