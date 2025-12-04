@@ -54,10 +54,15 @@ export default function Header() {
           className="flex items-center gap-3 cursor-pointer group"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
-          <img 
-            src="https://c.animaapp.com/mipw8t0njGuOWs/img/fee73c0d-d64e-41dd-be8b-770244ec5b79.png" 
-            alt="Slatts Ventures Logo" 
+          <div 
             className="h-10 w-10 transition-transform duration-300 group-hover:scale-105"
+            style={{
+              backgroundImage: 'url(https://c.animaapp.com/mipw8t0njGuOWs/img/fee73c0d-d64e-41dd-be8b-770244ec5b79.png)',
+              backgroundSize: 'contain',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              mixBlendMode: 'darken'
+            }}
           />
           <span className="text-xl font-light text-gray-900 transition-colors duration-300 group-hover:text-primary">
             Slatts Ventures
@@ -85,7 +90,7 @@ export default function Header() {
           onClick={() => scrollToSection('contact')}
           className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 font-light rounded-full px-6"
         >
-          Book Strategy Call
+          Contact
         </Button>
 
         {/* Mobile Menu Button */}
@@ -121,7 +126,7 @@ export default function Header() {
                 onClick={() => scrollToSection('contact')}
                 className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-light rounded-full"
               >
-                Get in Touch
+                Contact
               </Button>
             </NavigationMenuItem>
           </NavigationMenuList>
